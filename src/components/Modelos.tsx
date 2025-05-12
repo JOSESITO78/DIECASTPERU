@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import b737 from '../assets/boeing737.jpg';
-import dhc8 from '../assets/dhc8.jpg';
+import dhc8 from '../assets/dash8.jpg';
 import tristar from '../assets/tristar.jpg';
 import fokker from '../assets/fokker.jpg';
 import b727 from '../assets/727.jpg';
@@ -79,12 +79,22 @@ const Modelos = () => {
         gap: '2rem'
       }}> */}
 
-        <div className="cards-container" style={{
+        {/* <div className="cards-container" style={{
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
         gap: '2rem'
-        }}>
+        }}> */}
+
+    <div
+        className="cards-container"
+        style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        gap: '2rem'
+    }}
+>
 
 
         {modelos.map((modelo, index) => (

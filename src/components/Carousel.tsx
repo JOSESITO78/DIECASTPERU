@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import f14 from "../assets/boeing737.jpg";
-import f22 from "../assets/dhc8.jpg";
+import f22 from "../assets/dash8.jpg";
 import mirage from "../assets/tristar.jpg";
 
 const Carousel = () => {
