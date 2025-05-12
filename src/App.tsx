@@ -13,7 +13,7 @@ function App() {
   const contactoRef = useRef<HTMLDivElement>(null);
 
   // Función para hacer scroll suave a una sección
-  const scrollTo = (ref: React.RefObject<HTMLDivElement>) => {
+  const scrollTo = (ref: React.RefObject<HTMLDivElement | null>) => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
